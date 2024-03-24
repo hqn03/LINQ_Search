@@ -11,7 +11,7 @@ namespace LINQ_Search
 			List<Position> positions = Position.Positions();
 			List<Department> departments = Department.Departments();
 			List<Employee> employees = Employee.Employees();
-            Console.Write("Enter your keyword search: ");
+            		Console.Write("Enter your keyword search: ");
 			string? keyword = Console.ReadLine().ToLower();
 			Console.Write("Age from: ");
 			input = Console.ReadLine();
